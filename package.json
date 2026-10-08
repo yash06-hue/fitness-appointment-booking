@@ -1,0 +1,16 @@
+{
+  "name": "fitness-appointment-booking",
+  "version": "1.0.0",
+  "description": "Fitness Appointment Booking - 45-minute workshop project with React, Node.js/SQLite, and Minimoth OTP",
+  "scripts": {
+    "backend": "npm --prefix backend start",
+    "frontend": "npm --prefix frontend run dev",
+    "dev": "npm --prefix frontend run dev",
+    "start": "npm --prefix backend start",
+    "seed": "npm --prefix backend run seed",
+    "build": "npm --prefix frontend run build"
+  },
+  "keywords": ["fitness", "appointment-booking", "minimoth", "react", "sqlite", "express"],
+  "license": "ISC"
+}
+
